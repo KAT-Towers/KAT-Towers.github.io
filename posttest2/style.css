@@ -1,0 +1,83 @@
+body {
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+background-color: black;
+color: white;
+padding-bottom: 20px;
+}
+
+#title {
+    display: inline;
+    font-size: 90px;
+
+}
+
+#main {
+    width: 250px;
+    height:200px
+}
+
+#links li {
+    margin-left: 20px;
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid white;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {
+    font-size: 18px;
+}
+
+iframe {
+    margin-left: 80px;
+}
+
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#tan {
+    width: 425px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#muzan {
+    width: 425px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table, th, td, caption {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 40px;
+}
+
+.lead:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.lead {
+    border-radius: 10px;
+}
+
+caption {
+    background-color: rgb(175, 7, 7);
+}
+
+td, th {
+    background-color: lightgray;
+}
